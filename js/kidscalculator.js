@@ -9,16 +9,16 @@ function count(n) {
         }
     }
 
-    count(10);
+    count(2);
 
 function addnumber(a,b) {
     console.info('primul numar: '+a);
     console.info('al doilea numar: '+b);
-
-    for(;b>=1;) {a++;console.info(a+' e numarul, au mai ramas '+b);b--;}
+    if (a>=b){var suma=a; var deget=b;} else {var suma=b; var deget=a;}
+    for(;deget>=1;) {deget--;suma++;console.info(suma+' e numarul, au mai ramas '+deget);}
 
     console.info('iar suma: '+a)
 }
 
-addnumber(3,5);
+addnumber(10,7);
 //
