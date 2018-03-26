@@ -15,9 +15,9 @@ function addnumber(a,b) {
     console.info('primul numar: '+a);
     console.info('al doilea numar: '+b);
     if (a>=b){var suma=a; var deget=b;} else {var suma=b; var deget=a;}
-    for(;deget>=1;) {deget--;suma++;console.info(suma+' e numarul, au mai ramas '+deget);}
+    while(deget>=1) {deget--;suma++;console.info(suma+' e numarul, au mai ramas '+deget);}
 
-    console.info('iar suma: '+a)
+    console.info('iar suma: '+suma)
 }
 
 addnumber(10,7);
