@@ -22,3 +22,13 @@ function addnumber(a,b) {
 
 addnumber(10,7);
 //
+
+function prime(n) {
+    for (var i=0;i<n;i++) {
+        if() {
+            console.info(i);
+        }
+    }
+}
+
+prime (50)
